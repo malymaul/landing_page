@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    /* width: 900px; */
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #040303;
+    background-color: lightblue;
+}
+
+.links {
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact {
+    margin-left: 20px;
+}
+
+.about {
+    margin-left: 20px;
+}
