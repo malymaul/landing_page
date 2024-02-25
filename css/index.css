@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-
 }
+
+
 
 .menu-container  {
     font-size: 18px;
@@ -23,6 +23,19 @@
     width: 900px;
     display: flex;
     /* justify-content: space-around; */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: "Russo One", sans-serif;
+
+}   
+
+.link {
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 /* Pushes Services, About, Contact to the right */
@@ -71,6 +84,10 @@ button {
     background-color: #3882f6;
     border: none;
     padding: 12px 32px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-top: 15px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
 }
