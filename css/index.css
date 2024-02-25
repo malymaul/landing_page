@@ -4,24 +4,28 @@
     box-sizing: border-box;
 }
 
-.navigation {
-    /* width: 900px; */
+.menu-container  {
+    color: #E5E7EB;
+    font-size: 18px;
+    background-color: #1f2937; /* Dark Blue */
+    padding: 20px 0;
     display: flex;
-    justify-content: space-between;
-    border: 1px solid #040303;
-    background-color: lightblue;
+    justify-content: space-around;
 }
 
-.links {
-    border: 2px solid #fff;
+.menu {
+    /* border: 1px solid #fff; */
+    width: 900px;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
 }
 
-.contact {
-    margin-left: 20px;
+/* Pushes Services, About, Contact to the right */
+.services {
+    margin-left: auto;
 }
 
-.about {
+
+.contact, .about {
     margin-left: 20px;
 }
