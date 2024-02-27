@@ -163,6 +163,41 @@ blockquote {
 }
 
 /* CTA */
+#cta {
+    /* border: solid 2px #3882f6; */
+    padding: 80px;
+}
+
+.cta-box {
+    /* border: solid 2px rgb(249, 13, 190); */
+    background-color: #3882f6;
+    color: #fff;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+
+.cta-btn {
+    background-color: #3882f6;
+    border: solid 1px #fff;
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action p {
+    font-weight: 300;
+}
 
 body {
     font-family: "Roboto", sans-serif;
